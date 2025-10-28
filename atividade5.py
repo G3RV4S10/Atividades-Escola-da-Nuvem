@@ -4,4 +4,13 @@ Leia quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferenç
 Entrada: O arquivo de entrada contém 4 valores inteiros. 
 Saída: Imprima a mensagem "DIFERENCA = " com todas as letras maiúsculas.
 """
+print("Digite quatro valores inteiros")
+print("-------------------------------")
+A = int(input())
+B = int(input())
+C = int(input())
+D = int(input())
 
+diferenca = (A * B - C * D)
+
+print(f'DIFERENCA = {diferenca}')
